@@ -1,0 +1,158 @@
+# 📄 Rapport du Projet : **Mbaay Mi – Application Web Agricole**
+
+## 1. Introduction
+
+L’agriculture est un secteur essentiel au Sénégal, jouant un rôle majeur dans l’économie et la sécurité alimentaire. Cependant, de nombreux cultivateurs rencontrent encore des difficultés pour accéder à des informations agricoles fiables et à jour. Le projet **Mbaay Mi** vise à répondre à ce besoin en proposant une application web simple, accessible et intuitive permettant de consulter des informations agricoles et de faciliter les échanges entre les acteurs du secteur.
+
+Ce projet s’inscrit dans le cadre de la formation en développement web et a pour objectif de mettre en pratique les notions de **HTML, CSS, JavaScript** ainsi que l’organisation d’un projet avec **Git et GitHub**.
+
+---
+
+## 2. Objectifs du Projet
+
+### 🎯 Objectif général
+
+Développer une application web multi-pages permettant aux utilisateurs d’accéder facilement à des informations agricoles utiles.
+
+### 🎯 Objectifs spécifiques
+
+* Créer une interface simple et intuitive.
+* Afficher des informations agricoles (conseils, saisons, cultures, météo, etc.).
+* Permettre des interactions simples via JavaScript.
+* Structurer correctement le projet en dossiers.
+* Utiliser Git et GitHub pour le suivi du projet.
+
+---
+
+## 3. Description Fonctionnelle de l’Application
+
+L’application Mbaay Mi est composée de plusieurs pages accessibles via un menu de navigation.
+
+### 📌 Pages principales
+
+1. **Accueil**
+
+   * Présentation du projet.
+   * Message de bienvenue.
+   * Liens vers les autres pages.
+
+2. **Informations agricoles**
+
+   * Conseils de culture.
+   * Calendrier agricole.
+   * Types de cultures (riz, mil, maïs, arachide, etc.).
+
+3. **Actualités / Conseils**
+
+   * Astuces pour améliorer les rendements.
+   * Bonnes pratiques agricoles.
+
+4. **Contact**
+
+   * Formulaire simple (nom, email, message).
+   * Message de confirmation après envoi.
+
+### ⚙️ Fonctionnalités JavaScript
+
+* Validation des formulaires.
+* Messages d’alerte ou de confirmation.
+* Mise à jour dynamique de certains contenus.
+
+---
+
+## 4. Technologies Utilisées
+
+* **HTML5** : structure des pages.
+* **CSS3** : mise en forme et design.
+* **JavaScript** : interactions dynamiques.
+* **Git** : gestion des versions.
+* **GitHub** : hébergement du projet et travail collaboratif.
+
+---
+
+## 5. Organisation du Projet
+
+La structure du projet est organisée comme suit :
+
+```
+MbaayMi/
+│
+├── index.html
+├── pages/
+│   ├── infos.html
+│   ├── conseils.html
+│   └── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    └── (images agricoles)
+```
+
+Cette organisation permet une meilleure lisibilité du projet et facilite la maintenance du code.
+
+---
+
+## 6. Méthodologie de Travail
+
+1. Analyse du besoin.
+2. Conception des pages (maquettes simples).
+3. Développement HTML.
+4. Ajout du design avec CSS.
+5. Ajout des interactions avec JavaScript.
+6. Tests de fonctionnement.
+7. Publication du projet sur GitHub.
+
+---
+
+## 7. Résultats Obtenus
+
+* Application fonctionnelle et accessible via navigateur.
+* Navigation entre plusieurs pages.
+* Formulaire de contact interactif.
+* Design simple et adapté aux débutants.
+* Projet correctement structuré.
+
+---
+
+## 8. Difficultés Rencontrées
+
+* Compréhension de certaines notions JavaScript.
+* Gestion des liens entre pages.
+* Organisation des fichiers.
+
+Ces difficultés ont été surmontées grâce à la pratique, aux recherches et à l’aide de l’enseignant.
+
+---
+
+## 9. Perspectives d’Amélioration
+
+Dans le futur, l’application pourrait être améliorée par :
+
+* L’ajout d’une base de données.
+* Un système de connexion des utilisateurs.
+* Des notifications météo.
+* Une version mobile plus avancée.
+* Une messagerie entre agriculteurs.
+
+---
+
+## 10. Conclusion
+
+Le projet **Mbaay Mi** a permis de mieux comprendre le fonctionnement d’une application web multi-pages et l’importance de la structuration d’un projet informatique. Il contribue également à sensibiliser sur l’importance des outils numériques dans le développement du secteur agricole au Sénégal.
+
+Ce projet représente une bonne base pour évoluer vers des applications plus complexes à l’avenir.
+
+---
+
+## 👨‍🎓 Réalisé par
+
+Nom : El hadji Cheikhou Omar Faye
+
+Classe : 1ère année Promo 6 Isep Diamniadio
+
+Année académique : 2024 / 2025
