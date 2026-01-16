@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annonces</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/annonces.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="index.html">
+				<img src="images/logo.png" alt="Mbaay Mi logo" class="logo">
+				<span class="brand-title">Mbaay Mi</span>
+			</a>
+			<nav class="main-nav">
+				<a href="index.html">Accueil</a>
+				<a href="contact.html">Contact</a>
+				<a href="dashboard.html">Dashboard</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="annonces-hero">
+			<div class="container text-center">
+				<h1>Annonces Agricoles</h1>
+				<p class="muted">Trouvez semences, équipements et services auprès de la communauté.</p>
+			</div>
+		</section>
+
+		<section class="annonces">
+			<div class="container">
+				<div class="annonces-grid" id="liste">
+					<!-- Les annonces seront insérées ici par js/annonces.js -->
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© Mbaay Mi — Application agricole locale</p>
+		</div>
+	</footer>
+
+	<script src="js/annonces.js"></script>
+</body>
+</html>
